@@ -1,8 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazares.Gallery", "Blazares.Gallery\Blazares.Gallery.csproj", "{197D74B7-4F05-4C7E-8654-A0A16E0AE25E}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazares.Gallery", "Blazares.Gallery\Blazares.Gallery.csproj", "{197D74B7-4F05-4C7E-8654-A0A16E0AE25E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazares.Gallery.Engine", "Blazares.Gallery.Engine\Blazares.Gallery.Engine.csproj", "{A999C450-F898-4FF1-8C95-EF19C5E56D84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazares.Gallery.Engine", "Blazares.Gallery.Engine\Blazares.Gallery.Engine.csproj", "{A999C450-F898-4FF1-8C95-EF19C5E56D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazares.Gallery.UI", "Blazares.Gallery.UI\Blazares.Gallery.UI.csproj", "{437378F6-841B-4BEB-8390-8CB0FB08C676}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,15 @@ Global
 		{A999C450-F898-4FF1-8C95-EF19C5E56D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A999C450-F898-4FF1-8C95-EF19C5E56D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A999C450-F898-4FF1-8C95-EF19C5E56D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437378F6-841B-4BEB-8390-8CB0FB08C676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437378F6-841B-4BEB-8390-8CB0FB08C676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437378F6-841B-4BEB-8390-8CB0FB08C676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437378F6-841B-4BEB-8390-8CB0FB08C676}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {044E6C9E-F3FE-4F40-A111-C8BCE540D7D8}
 	EndGlobalSection
 EndGlobal
